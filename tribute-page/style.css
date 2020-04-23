@@ -1,0 +1,42 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 2;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#main {
+  padding: 0 10px 50px 10px;
+}
+
+.img-div {
+  margin: 50px auto 50px auto;
+  max-width: 600px;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#main {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+ul {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+li {
+  margin: 1.5em 0;
+}
