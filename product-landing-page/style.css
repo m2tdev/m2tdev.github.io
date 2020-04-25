@@ -119,6 +119,10 @@ img {
   box-shadow: 1rem 1rem 1rem gray;
 }
 
+.benefit i {
+  font-size: 3rem;
+}
+
 #main-form {
   padding-bottom: 5rem;
 }
