@@ -3,7 +3,7 @@
 ## Responsive Web Design
 
 Project demos are available on Github Pages.
-Click any project to see the demo!
+Click on any project to see the demo!
 
 - [Tribute Page ](https://mertdx.github.io/tribute-page/)
 - [Survey Form ](https://mertdx.github.io/survey-form/)

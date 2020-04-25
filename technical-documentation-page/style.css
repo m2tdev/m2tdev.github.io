@@ -108,3 +108,11 @@ pre {
     margin: 15rem 2rem;
   }
 }
+
+footer {
+  margin-bottom: 2rem;
+}
+
+i {
+  color: red;
+}

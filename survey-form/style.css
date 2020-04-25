@@ -70,3 +70,10 @@ label {
   display: inline-block;
   width: auto;
 }
+footer {
+  text-align: center;
+}
+
+i {
+  color: red;
+}
