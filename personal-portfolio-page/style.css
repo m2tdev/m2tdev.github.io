@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6em;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.image {
+  width: 20rem;
+  height: 20rem;
+  margin: 10rem auto;
+  border: 1rem double rgb(83, 58, 175);
+  border-radius: 50%;
+}
