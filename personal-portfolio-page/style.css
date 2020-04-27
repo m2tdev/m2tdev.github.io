@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
 *,
 *::before,
 *::after {
@@ -6,22 +8,219 @@
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
   font-size: 1.6em;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+/* Navbar */
+
+#navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: #717ec3;
+  z-index: 10;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav-link {
+  margin: 1rem 0;
+}
+
+.nav-link + .nav-link {
+  margin-left: 4rem;
+}
+
+.nav-link a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .nav-link {
+    margin: 0;
+  }
+}
+
+/* Welcome Section */
+
+.welcome-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(227, 209, 238);
+  border-radius: 2rem;
+}
+
+.profile-name {
+  font-size: 3rem;
+  color: rgb(15, 15, 15);
+}
+
+.profile-name h1 {
+  font-size: 6rem;
+  margin: 2rem 0 0 0;
+}
+
+.profile-name p {
+  opacity: 0.8;
   margin: 0;
 }
 
-img {
+#profile-img {
+  width: 20rem;
+  height: 20rem;
+  border: 1rem double #717ec3;
+  border-radius: 50%;
+  margin: 5rem;
+}
+
+#profile-img img {
   width: 100%;
   height: auto;
   border-radius: 50%;
 }
-.image {
-  width: 20rem;
-  height: 20rem;
-  margin: 10rem auto;
-  border: 1rem double rgb(83, 58, 175);
-  border-radius: 50%;
+
+@media (max-width: 768px) {
+  .welcome-section {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* Projects Section */
+
+#projects {
+  background-color: thistle;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  padding: 3rem 0;
+}
+
+.projects-header {
+  text-align: center;
+  color: #4b5dbb;
+  margin-bottom: 3rem;
+}
+
+.projects-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects-wrapper a {
+  text-decoration: none;
+}
+
+.project-tile {
+  width: 40%;
+  margin: 2rem 2rem 0 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.project-tile:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.project-tile p {
+  margin: 0 0 3rem 0;
+  padding: 1rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  background-color: #717ec3;
+  box-shadow: 0px 0px 10px black;
+}
+
+.project-tile img {
+  display: block;
+  max-width: 100%;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  box-shadow: 0px 0px 10px black;
+}
+
+@media (max-width: 768px) {
+  .project-tile {
+    width: 80%;
+  }
+}
+
+/* Socials Section */
+
+.social {
+  background-color: rgb(214, 178, 214);
+  border-radius: 2rem;
+  text-align: center;
+  margin: 3rem 0 3rem 0;
+  padding: 2rem;
+}
+
+.social-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social h1 {
+  font-size: 3.5rem;
+  color: #4b5dbb;
+}
+
+.social-wrapper a {
+  color: #4b5dbb;
+  font-size: 3.5rem;
+  margin: 1.5rem;
+  display: block;
+  transition: 0.5s;
+}
+
+.social-wrapper a:hover {
+  transform: scale(1.15);
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+footer {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+footer i {
+  color: red;
 }
