@@ -1,4 +1,4 @@
-# This repository includes all the projects I've made while studying freeCodeCamp's curriculum.
+# This repository includes all the projects I've made while studying freeCodeCamp's curriculum
 
 ## Responsive Web Design
 
@@ -11,7 +11,7 @@ Click on any project to see the demo!
 - [Technical Documentation Page](https://mertdx.github.io/technical-documentation-page/)
 - [Personal Portfolio Page](https://mertdx.github.io/personal-portfolio-page/)
 
-#### [Click to view certificate ](https://www.freecodecamp.org/certification/mertdx/responsive-web-design)
+### [Click to view certificate](https://www.freecodecamp.org/certification/mertdx/responsive-web-design)
 
 ## JavaScript Algorithms and Data Structures
 
