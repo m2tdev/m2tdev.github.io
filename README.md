@@ -5,13 +5,13 @@
 Project demos are available on Github Pages.
 Click on any project to see the demo!
 
-- [Tribute Page](https://mertdx.github.io/tribute-page/)
-- [Survey Form](https://mertdx.github.io/survey-form/)
-- [Product Landing Page](https://mertdx.github.io/product-landing-page/)
-- [Technical Documentation Page](https://mertdx.github.io/technical-documentation-page/)
-- [Personal Portfolio Page](https://mertdx.github.io/personal-portfolio-page/)
+- [Tribute Page](https://m2tdev.github.io/tribute-page/)
+- [Survey Form](https://m2tdev.github.io/survey-form/)
+- [Product Landing Page](https://m2tdev.github.io/product-landing-page/)
+- [Technical Documentation Page](https://m2tdev.github.io/technical-documentation-page/)
+- [Personal Portfolio Page](https://m2tdev.github.io/personal-portfolio-page/)
 
-### [Click to view certificate](https://www.freecodecamp.org/certification/mertdx/responsive-web-design)
+### [Click to view certificate](https://www.freecodecamp.org/certification/m2tdev/responsive-web-design)
 
 ## JavaScript Algorithms and Data Structures
 

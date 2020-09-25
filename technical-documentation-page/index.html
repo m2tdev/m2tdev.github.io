@@ -1,104 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>React</title>
-    <link rel="stylesheet" href="/technical-documentation-page/style.css">
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" async></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/technical-documentation-page/style.css" />
+    <script
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+      async
+    ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <nav id="navbar">
-        <header>React Documentation</header>
-        <ul>
-            <li> <a href="#Hello_World" class="nav-link"> Hello World</a></li>
-            <li> <a href="#Introducing_JSX" class="nav-link"> Introducing JSX</a></li>
-            <li> <a href="#Rendering_Elements" class="nav-link"> Rendering Elements</a></li>
-            <li> <a href="#Components_and_Props" class="nav-link"> Components and Props</a></li>
-            <li> <a href="#State_and_Lifecycle" class="nav-link"> State and Lifecycle</a></li>
-        </ul>
+      <header>React Documentation</header>
+      <ul>
+        <li><a href="#Hello_World" class="nav-link"> Hello World</a></li>
+        <li>
+          <a href="#Introducing_JSX" class="nav-link"> Introducing JSX</a>
+        </li>
+        <li>
+          <a href="#Rendering_Elements" class="nav-link"> Rendering Elements</a>
+        </li>
+        <li>
+          <a href="#Components_and_Props" class="nav-link">
+            Components and Props</a
+          >
+        </li>
+        <li>
+          <a href="#State_and_Lifecycle" class="nav-link">
+            State and Lifecycle</a
+          >
+        </li>
+      </ul>
     </nav>
 
     <main id="main-doc">
-        <section class="main-section" id="Hello_World">
-            <header>Hello World</header>
-            <article>
-                <h2>The smallest React example looks like this:</h2>
-                <pre>
+      <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
+        <article>
+          <h2>The smallest React example looks like this:</h2>
+          <pre>
                     <code>
     ReactDOM.render(
     &lt;h1&gt;Hello, world!&lt;/h1&gt;,
     document.getElementById('root'));</code>
                 </pre>
-                <p>It displays a heading saying “Hello, world!” on the page.</p>
-                <h2>How to Read This Guide</h2>
-                <p>In this guide, we will examine the building blocks of React apps: elements and components. Once you
-                    master them, you can create complex apps from small reusable pieces.</p>
-                <blockquote>
-                    <h3>Tip</h3>
-                    <p>This guide is designed for people who prefer <strong>learning concepts step by step</strong>. If
-                        you prefer to learn by doing, check out our practical tutorial. You might find this guide and
-                        the tutorial complementary to each other.</p>
-                </blockquote>
-                <p>This is the first chapter in a step-by-step guide about main React concepts. You can find a list of
-                    all its chapters in the navigation sidebar. If you’re reading this from a mobile device, you can
-                    access the navigation by pressing the button in the bottom right corner of your screen.</p>
-                <p>Every chapter in this guide builds on the knowledge introduced in earlier chapters. <strong>You can
-                        learn most of React by reading the “Main Concepts” guide chapters in the order they appear in
-                        the sidebar.</strong> For example, “Introducing JSX” is the next chapter after this one.</p>
+          <p>It displays a heading saying “Hello, world!” on the page.</p>
+          <h2>How to Read This Guide</h2>
+          <p>
+            In this guide, we will examine the building blocks of React apps:
+            elements and components. Once you master them, you can create
+            complex apps from small reusable pieces.
+          </p>
+          <blockquote>
+            <h3>Tip</h3>
+            <p>
+              This guide is designed for people who prefer
+              <strong>learning concepts step by step</strong>. If you prefer to
+              learn by doing, check out our practical tutorial. You might find
+              this guide and the tutorial complementary to each other.
+            </p>
+          </blockquote>
+          <p>
+            This is the first chapter in a step-by-step guide about main React
+            concepts. You can find a list of all its chapters in the navigation
+            sidebar. If you’re reading this from a mobile device, you can access
+            the navigation by pressing the button in the bottom right corner of
+            your screen.
+          </p>
+          <p>
+            Every chapter in this guide builds on the knowledge introduced in
+            earlier chapters.
+            <strong
+              >You can learn most of React by reading the “Main Concepts” guide
+              chapters in the order they appear in the sidebar.</strong
+            >
+            For example, “Introducing JSX” is the next chapter after this one.
+          </p>
 
-                <h2>Knowledge Level Assumptions</h2>
-                <p>React is a JavaScript library, and so we’ll assume you have a basic understanding of the JavaScript
-                    language. If you don’t feel very confident, we recommend going through a JavaScript tutorial to
-                    check your knowledge level and enable you to follow along this guide without getting lost. It might
-                    take you between 30 minutes and an hour, but as a result you won’t have to feel like you’re learning
-                    both React and JavaScript at the same time.</p>
+          <h2>Knowledge Level Assumptions</h2>
+          <p>
+            React is a JavaScript library, and so we’ll assume you have a basic
+            understanding of the JavaScript language. If you don’t feel very
+            confident, we recommend going through a JavaScript tutorial to check
+            your knowledge level and enable you to follow along this guide
+            without getting lost. It might take you between 30 minutes and an
+            hour, but as a result you won’t have to feel like you’re learning
+            both React and JavaScript at the same time.
+          </p>
 
-                <blockquote>
-                    <h3>Note</h3>
-                    <p>This guide occasionally uses some of the newer JavaScript syntax in the examples. If you haven’t
-                        worked with JavaScript in the last few years, <a
-                            href="https://gist.github.com/gaearon/683e676101005de0add59e8bb345340c"
-                            target="_blank">these three
-                            points</a> should get you most of the way.
-                    </p>
-                </blockquote>
-            </article>
-        </section>
+          <blockquote>
+            <h3>Note</h3>
+            <p>
+              This guide occasionally uses some of the newer JavaScript syntax
+              in the examples. If you haven’t worked with JavaScript in the last
+              few years,
+              <a
+                href="https://gist.github.com/gaearon/683e676101005de0add59e8bb345340c"
+                target="_blank"
+                >these three points</a
+              >
+              should get you most of the way.
+            </p>
+          </blockquote>
+        </article>
+      </section>
 
-        <section class="main-section" id="Introducing_JSX">
-            <header>Introducing JSX</header>
-            <article>
-                <h2>Consider this variable declaration:</h2>
-                <pre>
+      <section class="main-section" id="Introducing_JSX">
+        <header>Introducing JSX</header>
+        <article>
+          <h2>Consider this variable declaration:</h2>
+          <pre>
                     <code>
     const element = &lt;h1&gt;Hello, world!&lt;/h1&gt;;</code>
                 </pre>
-                <p>This funny tag syntax is neither a string nor HTML.</p>
-                <p>It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to
-                    describe what the UI should look like. JSX may remind you of a template language, but it comes with
-                    the full power of JavaScript.</p>
-                <p>JSX produces React “elements”. We will explore rendering them to the DOM in the next section. Below,
-                    you can find the basics of JSX necessary to get you started.</p>
+          <p>This funny tag syntax is neither a string nor HTML.</p>
+          <p>
+            It is called JSX, and it is a syntax extension to JavaScript. We
+            recommend using it with React to describe what the UI should look
+            like. JSX may remind you of a template language, but it comes with
+            the full power of JavaScript.
+          </p>
+          <p>
+            JSX produces React “elements”. We will explore rendering them to the
+            DOM in the next section. Below, you can find the basics of JSX
+            necessary to get you started.
+          </p>
 
-                <h2>Why JSX?</h2>
-                <p>React embraces the fact that rendering logic is inherently coupled with other UI logic: how events
-                    are handled, how the state changes over time, and how the data is prepared for display.</p>
-                <p>Instead of artificially separating technologies by putting markup and logic in separate files, React
-                    separates concerns with loosely coupled units called “components” that contain both. We will come
-                    back to components in a further section, but if you’re not yet comfortable putting markup in JS,
-                    this talk might convince you otherwise.</p>
-                <p>React doesn’t require using JSX, but most people find it helpful as a visual aid when working with UI
-                    inside the JavaScript code. It also allows React to show more useful error and warning messages.</p>
-                <p>With that out of the way, let’s get started! </p>
-                <h2>Embedding Expressions in JSX</h2>
-                <p>In the example below, we declare a variable called name and then use it inside JSX by wrapping it in
-                    curly braces:</p>
-                <pre>
+          <h2>Why JSX?</h2>
+          <p>
+            React embraces the fact that rendering logic is inherently coupled
+            with other UI logic: how events are handled, how the state changes
+            over time, and how the data is prepared for display.
+          </p>
+          <p>
+            Instead of artificially separating technologies by putting markup
+            and logic in separate files, React separates concerns with loosely
+            coupled units called “components” that contain both. We will come
+            back to components in a further section, but if you’re not yet
+            comfortable putting markup in JS, this talk might convince you
+            otherwise.
+          </p>
+          <p>
+            React doesn’t require using JSX, but most people find it helpful as
+            a visual aid when working with UI inside the JavaScript code. It
+            also allows React to show more useful error and warning messages.
+          </p>
+          <p>With that out of the way, let’s get started!</p>
+          <h2>Embedding Expressions in JSX</h2>
+          <p>
+            In the example below, we declare a variable called name and then use
+            it inside JSX by wrapping it in curly braces:
+          </p>
+          <pre>
                     <code>
     const name = 'Josh Perez';
     const element = &lt;h1&gt;Hello, {name}&lt;/h1&gt;;
@@ -108,68 +167,92 @@
         document.getElementById('root')
     );</code>
                 </pre>
-                <p>You can put any valid JavaScript expression inside the curly braces in JSX. For example, <code>2 + 2,
-                    user.firstName, or formatName(user)</code> are all valid JavaScript expressions.</p>
-                <p>
-                    In the example below, we embed the result of calling a JavaScript function, formatName(user), into
-                    an &lt;h1&gt; element.
-                </p>
+          <p>
+            You can put any valid JavaScript expression inside the curly braces
+            in JSX. For example,
+            <code>2 + 2, user.firstName, or formatName(user)</code> are all
+            valid JavaScript expressions.
+          </p>
+          <p>
+            In the example below, we embed the result of calling a JavaScript
+            function, formatName(user), into an &lt;h1&gt; element.
+          </p>
+        </article>
+      </section>
 
-            </article>
-        </section>
-
-        <section class="main-section" id="Rendering_Elements">
-            <header>Rendering Elements</header>
-            <article>
-                <h2>Elements are the smallest building blocks of React apps.</h2>
-                <p>An element describes what you want to see on the screen:</p>
-                <pre>
+      <section class="main-section" id="Rendering_Elements">
+        <header>Rendering Elements</header>
+        <article>
+          <h2>Elements are the smallest building blocks of React apps.</h2>
+          <p>An element describes what you want to see on the screen:</p>
+          <pre>
                     <code>
     const element = &lt;h1&gt;Hello, world&lt;/h1&gt;;</code>
                 </pre>
-                <p>Unlike browser DOM elements, React elements are plain objects, and are cheap to create. React DOM
-                    takes care of updating the DOM to match the React elements.</p>
-                <blockquote>
-                    <h3>Note:</h3>
-                    <p>One might confuse elements with a more widely known concept of “components”. We will introduce
-                        components in the next section. Elements are what components are “made of”, and we encourage you
-                        to read this section before jumping ahead.</p>
-                </blockquote>
-                <h2>Rendering an Element into the DOM</h2>
-                <p>Let’s say there is a &lt;div&gt; somewhere in your HTML file:</p>
-                <pre>
+          <p>
+            Unlike browser DOM elements, React elements are plain objects, and
+            are cheap to create. React DOM takes care of updating the DOM to
+            match the React elements.
+          </p>
+          <blockquote>
+            <h3>Note:</h3>
+            <p>
+              One might confuse elements with a more widely known concept of
+              “components”. We will introduce components in the next section.
+              Elements are what components are “made of”, and we encourage you
+              to read this section before jumping ahead.
+            </p>
+          </blockquote>
+          <h2>Rendering an Element into the DOM</h2>
+          <p>Let’s say there is a &lt;div&gt; somewhere in your HTML file:</p>
+          <pre>
                     <code>
     &lt;div id="root"&gt;&lt;/div&gt;</code>
                 </pre>
-                <p>We call this a “root” DOM node because everything inside it will be managed by React DOM.</p>
-                <p>Applications built with just React usually have a single root DOM node. If you are integrating React
-                    into an existing app, you may have as many isolated root DOM nodes as you like.</p>
-                <p>To render a React element into a root DOM node, pass both to <code>ReactDOM.render():</code> </p>
-                <pre>
+          <p>
+            We call this a “root” DOM node because everything inside it will be
+            managed by React DOM.
+          </p>
+          <p>
+            Applications built with just React usually have a single root DOM
+            node. If you are integrating React into an existing app, you may
+            have as many isolated root DOM nodes as you like.
+          </p>
+          <p>
+            To render a React element into a root DOM node, pass both to
+            <code>ReactDOM.render():</code>
+          </p>
+          <pre>
                     <code>
     const element = &lt;h1&gt;Hello, world&lt;/h1&gt;;
     ReactDOM.render(element, document.getElementById('root'));</code>
                 </pre>
-                <p>It displays “Hello, world” on the page.</p>
-            </article>
-        </section>
+          <p>It displays “Hello, world” on the page.</p>
+        </article>
+      </section>
 
-        <section class="main-section" id="Components_and_Props">
-            <header>Components and Props</header>
-            <article>
-                <h2>Function and Class Components</h2>
-                <p>The simplest way to define a component is to write a JavaScript function:</p>
-                <pre>
+      <section class="main-section" id="Components_and_Props">
+        <header>Components and Props</header>
+        <article>
+          <h2>Function and Class Components</h2>
+          <p>
+            The simplest way to define a component is to write a JavaScript
+            function:
+          </p>
+          <pre>
                     <code>
     function Welcome(props) {
     return &lt;h1&gt;Hello, {props.name}&lt;/h1&gt;;
     }</code>
                 </pre>
-                <p>This function is a valid React component because it accepts a single “props” (which stands for
-                    properties) object argument with data and returns a React element. We call such components “function
-                    components” because they are literally JavaScript functions.</p>
-                <p>You can also use an ES6 class to define a component:</p>
-                <pre>
+          <p>
+            This function is a valid React component because it accepts a single
+            “props” (which stands for properties) object argument with data and
+            returns a React element. We call such components “function
+            components” because they are literally JavaScript functions.
+          </p>
+          <p>You can also use an ES6 class to define a component:</p>
+          <pre>
                     <code>
     class Welcome extends React.Component {
         render() {
@@ -177,26 +260,35 @@
         }
     }</code>
                 </pre>
-                <p>The above two components are equivalent from React’s point of view.</p>
-                <p>Function and Class components both have some additional features that we will discuss in the next
-                    sections.</p>
+          <p>
+            The above two components are equivalent from React’s point of view.
+          </p>
+          <p>
+            Function and Class components both have some additional features
+            that we will discuss in the next sections.
+          </p>
+        </article>
+      </section>
 
-            </article>
-        </section>
-
-        <section class="main-section" id="State_and_Lifecycle">
-            <header>State and Lifecycle</header>
-            <article>
-                <h2>Converting a Function to a Class</h2>
-                <p>You can convert a function component like <code>Clock</code> to a class in five steps:</p>
-                <ol>
-                    <li>Create an ES6 class, with the same name, that extends React.Component.</li>
-                    <li>Add a single empty method to it called render().</li>
-                    <li>Move the body of the function into the render() method.</li>
-                    <li>Replace props with this.props in the render() body.</li>
-                    <li>Delete the remaining empty function declaration.</li>
-                </ol>
-                <pre>
+      <section class="main-section" id="State_and_Lifecycle">
+        <header>State and Lifecycle</header>
+        <article>
+          <h2>Converting a Function to a Class</h2>
+          <p>
+            You can convert a function component like <code>Clock</code> to a
+            class in five steps:
+          </p>
+          <ol>
+            <li>
+              Create an ES6 class, with the same name, that extends
+              React.Component.
+            </li>
+            <li>Add a single empty method to it called render().</li>
+            <li>Move the body of the function into the render() method.</li>
+            <li>Replace props with this.props in the render() body.</li>
+            <li>Delete the remaining empty function declaration.</li>
+          </ol>
+          <pre>
                     <code>
     class Clock extends React.Component {
         render() {
@@ -209,18 +301,26 @@
         }
     }</code>
                 </pre>
-            </article>
-        </section>
-        <p>You can access the source code of this project on <a
-                href="https://github.com/mertdx/mertdx.github.io/tree/master/technical-documentation-page">Github</a>.
-        </p>
-        <p>This documentation is shortened to get minimum qualifications for tests to pass.
-            You can acces the <a href="https://reactjs.org/docs/hello-world.html">full documentation here</a>.</p>
-        <footer>
-            Made with <i class="fas fa-heart"></i> by <a href="https://github.com/mertdx">Mert Duzgun</a>
-        </footer>
-
+        </article>
+      </section>
+      <p>
+        You can access the source code of this project on
+        <a
+          href="https://github.com/m2tdev/m2tdev.github.io/tree/master/technical-documentation-page"
+          >Github</a
+        >.
+      </p>
+      <p>
+        This documentation is shortened to get minimum qualifications for tests
+        to pass. You can acces the
+        <a href="https://reactjs.org/docs/hello-world.html"
+          >full documentation here</a
+        >.
+      </p>
+      <footer>
+        Made with <i class="fas fa-heart"></i> by
+        <a href="https://github.com/m2tdev">Mert Duzgun</a>
+      </footer>
     </main>
-</body>
-
+  </body>
 </html>

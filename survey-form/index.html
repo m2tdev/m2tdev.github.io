@@ -1,86 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How do you spend your time?</title>
+    <script
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+      async
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>How do you spend your time?</title>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" async></script>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
-</head>
+  <body>
+    <main>
+      <header class="header">
+        <h1 id="title">How do you spend the most precious thing you have?</h1>
+        <p id="description">I mean your time...</p>
+      </header>
+      <form id="survey-form">
+        <div class="form-control">
+          <label for="name" id="name-label">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="form-control">
+          <label for="email" id="email-label">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="form-control">
+          <label for="number" id="number-label">Number</label>
+          <input
+            type="number"
+            name="number"
+            id="number"
+            min="0"
+            max="99999999999"
+            placeholder="Enter your number"
+          />
+        </div>
+        <div class="form-control">
+          <p>Which one do you spend your time on most?</p>
+          <select name="dropdown" id="dropdown">
+            <option disabled selected>Click to select</option>
+            <option value="books">Reading books</option>
+            <option value="games">Playing games</option>
+            <option value="videos">Watching videos</option>
+            <option value="studying">Studying</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <p>Which one would you rather wish?</p>
+          <p>Being...</p>
+          <label for="rich">
+            <input type="radio" name="wish" value="rich" id="rich" />
+            Rich</label
+          >
+          <label for="smart">
+            <input type="radio" name="wish" value="smart" id="smart" />
+            Smart</label
+          >
+          <label for="handsome-beautiful">
+            <input
+              type="radio"
+              name="wish"
+              value="handsome-beautiful"
+              id="handsome-beautiful"
+            />
+            Handsome/Beautiful</label
+          >
+        </div>
+        <div class="form-control">
+          <p>What do you do for a better of yourself?</p>
+          <label for="plan">
+            <input type="checkbox" name="better" value="plan" id="plan" /> I
+            plan my days
+          </label>
+          <label for="work">
+            <input type="checkbox" name="better" value="work" id="work" /> I
+            work on something I want to learn
+          </label>
+          <label for="nothing">
+            <input type="checkbox" name="better" value="nothing" id="nothing" />
+            Nothing, I'm the best already
+          </label>
+        </div>
+        <div class="form-control">
+          <p>Any comments?</p>
+          <textarea
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+        <div class="form-control">
+          <input type="submit" id="submit" value="Submit" />
+        </div>
+      </form>
 
-<body>
-  <main>
-    <header class="header">
-      <h1 id="title">
-        How do you spend the most precious thing you have?
-      </h1>
-      <p id="description">I mean your time...</p>
-    </header>
-    <form id="survey-form">
-      <div class="form-control">
-        <label for="name" id="name-label">Name</label>
-        <input type="text" name="name" id="name" required placeholder="Enter your name" />
-      </div>
-      <div class="form-control">
-        <label for="email" id="email-label">Email</label>
-        <input type="email" name="email" id="email" required placeholder="Enter your email" />
-      </div>
-      <div class="form-control">
-        <label for="number" id="number-label">Number</label>
-        <input type="number" name="number" id="number" min="0" max="99999999999" placeholder="Enter your number" />
-      </div>
-      <div class="form-control">
-        <p>Which one do you spend your time on most?</p>
-        <select name="dropdown" id="dropdown">
-          <option disabled selected>Click to select</option>
-          <option value="books">Reading books</option>
-          <option value="games">Playing games</option>
-          <option value="videos">Watching videos</option>
-          <option value="studying">Studying</option>
-        </select>
-      </div>
-      <div class="form-control">
-        <p>Which one would you rather wish?</p>
-        <p>Being...</p>
-        <label for="rich">
-          <input type="radio" name="wish" value="rich" id="rich" /> Rich</label>
-        <label for="smart">
-          <input type="radio" name="wish" value="smart" id="smart" /> Smart</label>
-        <label for="handsome-beautiful">
-          <input type="radio" name="wish" value="handsome-beautiful" id="handsome-beautiful" />
-          Handsome/Beautiful</label>
-      </div>
-      <div class="form-control">
-        <p>What do you do for a better of yourself?</p>
-        <label for="plan">
-          <input type="checkbox" name="better" value="plan" id="plan" /> I plan my days
-        </label>
-        <label for="work">
-          <input type="checkbox" name="better" value="work" id="work" /> I work on something I want to learn
-        </label>
-        <label for="nothing">
-          <input type="checkbox" name="better" value="nothing" id="nothing" /> Nothing, I'm the best already
-        </label>
-      </div>
-      <div class="form-control">
-        <p>Any comments?</p>
-        <textarea name="comment" placeholder="Enter your comment here..."></textarea>
-      </div>
-      <div class="form-control">
-        <input type="submit" id="submit" value="Submit"/>
-      </div>
-    </form>
-
-    <footer>
-      <p>You can access the source code of this project on <a
-          href="https://github.com/mertdx/mertdx.github.io/tree/master/survey-form">Github</a>.
-      </p>
-      Made with <i class="fas fa-heart"></i> by <a href="https://github.com/mertdx">Mert Duzgun</a>
-    </footer>
-
-  </main>
-</body>
-
+      <footer>
+        <p>
+          You can access the source code of this project on
+          <a
+            href="https://github.com/m2tdev/m2tdev.github.io/tree/master/survey-form"
+            >Github</a
+          >.
+        </p>
+        Made with <i class="fas fa-heart"></i> by
+        <a href="https://github.com/m2tdev">Mert Duzgun</a>
+      </footer>
+    </main>
+  </body>
 </html>
