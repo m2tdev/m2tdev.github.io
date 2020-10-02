@@ -16,3 +16,7 @@ Click on any project to see the demo!
 ## JavaScript Algorithms and Data Structures
 
 In progress...
+
+## JS30 Projects
+
+- [JS Drumkit](https://m2tdev.github.io/js-drumkit/)
