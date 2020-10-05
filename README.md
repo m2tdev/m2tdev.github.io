@@ -1,4 +1,6 @@
-# This repository includes all the projects I've made while studying freeCodeCamp's curriculum
+# This repository includes all the small projects I've made with HTML/CSS/JS
+
+## freeCodeCamp Projects
 
 ## Responsive Web Design
 
