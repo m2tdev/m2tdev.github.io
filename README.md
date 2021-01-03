@@ -22,3 +22,8 @@ In progress...
 ## JS30 Projects
 
 - [JS Drumkit](https://m2tdev.github.io/js-drumkit/)
+- [JS And CSS Clock](https://m2tdev.github.io/js-and-css-clock/)
+- [CSS Variables](https://m2tdev.github.io/css-variables/)
+- [Array Cardio 1](https://m2tdev.github.io/array-cardio-1)
+- [Flex Panel Image Gallery](https://m2tdev.github.io/flex-panel-gallery)
+- [Type Ahead](https://m2tdev.github.io/type-ahead)
