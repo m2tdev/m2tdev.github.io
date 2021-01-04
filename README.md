@@ -15,10 +15,6 @@ Click on any project to see the demo!
 
 ### [Click to view certificate](https://www.freecodecamp.org/certification/m2tdev/responsive-web-design)
 
-## JavaScript Algorithms and Data Structures
-
-In progress...
-
 ## JS30 Projects
 
 - [JS Drumkit](https://m2tdev.github.io/js-drumkit/)
