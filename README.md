@@ -23,3 +23,5 @@ Click on any project to see the demo!
 - [Array Cardio 1](https://m2tdev.github.io/array-cardio-1)
 - [Flex Panel Image Gallery](https://m2tdev.github.io/flex-panel-gallery)
 - [Type Ahead](https://m2tdev.github.io/type-ahead)
+- [Array Cardio 2](https://m2tdev.github.io/array-cardio-2)
+- [HTML5 Canvas](https://m2tdev.github.io/html5-canvas)
