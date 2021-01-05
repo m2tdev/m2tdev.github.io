@@ -25,3 +25,5 @@ Click on any project to see the demo!
 - [Type Ahead](https://m2tdev.github.io/type-ahead)
 - [Array Cardio 2](https://m2tdev.github.io/array-cardio-2)
 - [HTML5 Canvas](https://m2tdev.github.io/html5-canvas)
+- [Hold Shift And Check](https://m2tdev.github.io/hold-shift-and-check)
+- [Custom Video Player](https://m2tdev.github.io/custom-video-player)
