@@ -27,3 +27,4 @@ Click on any project to see the demo!
 - [HTML5 Canvas](https://m2tdev.github.io/html5-canvas)
 - [Hold Shift And Check](https://m2tdev.github.io/hold-shift-and-check)
 - [Custom Video Player](https://m2tdev.github.io/custom-video-player)
+- [Key Sequence Detection](https://m2tdev.github.io/key-sequence-detection)
