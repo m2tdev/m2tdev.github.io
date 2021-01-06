@@ -28,3 +28,4 @@ Click on any project to see the demo!
 - [Hold Shift And Check](https://m2tdev.github.io/hold-shift-and-check)
 - [Custom Video Player](https://m2tdev.github.io/custom-video-player)
 - [Key Sequence Detection](https://m2tdev.github.io/key-sequence-detection)
+- [Slide In On Scroll](https://m2tdev.github.io/slide-in-on-scroll)
