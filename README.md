@@ -7,19 +7,19 @@
 Project demos are available on Github Pages.
 Click on any project to see the demo!
 
-- [Tribute Page](https://m2tdev.github.io/tribute-page/)
-- [Survey Form](https://m2tdev.github.io/survey-form/)
-- [Product Landing Page](https://m2tdev.github.io/product-landing-page/)
-- [Technical Documentation Page](https://m2tdev.github.io/technical-documentation-page/)
-- [Personal Portfolio Page](https://m2tdev.github.io/personal-portfolio-page/)
+- [Tribute Page](https://m2tdev.github.io/tribute-page)
+- [Survey Form](https://m2tdev.github.io/survey-form)
+- [Product Landing Page](https://m2tdev.github.io/product-landing-page)
+- [Technical Documentation Page](https://m2tdev.github.io/technical-documentation-page)
+- [Personal Portfolio Page](https://m2tdev.github.io/personal-portfolio-page)
 
 ### [Click to view certificate](https://www.freecodecamp.org/certification/m2tdev/responsive-web-design)
 
 ## JS30 Projects
 
-- [JS Drumkit](https://m2tdev.github.io/js-drumkit/)
-- [JS And CSS Clock](https://m2tdev.github.io/js-and-css-clock/)
-- [CSS Variables](https://m2tdev.github.io/css-variables/)
+- [JS Drumkit](https://m2tdev.github.io/js-drumkit)
+- [JS And CSS Clock](https://m2tdev.github.io/js-and-css-clock)
+- [CSS Variables](https://m2tdev.github.io/css-variables)
 - [Array Cardio 1](https://m2tdev.github.io/array-cardio-1)
 - [Flex Panel Image Gallery](https://m2tdev.github.io/flex-panel-gallery)
 - [Type Ahead](https://m2tdev.github.io/type-ahead)
@@ -29,3 +29,4 @@ Click on any project to see the demo!
 - [Custom Video Player](https://m2tdev.github.io/custom-video-player)
 - [Key Sequence Detection](https://m2tdev.github.io/key-sequence-detection)
 - [Slide In On Scroll](https://m2tdev.github.io/slide-in-on-scroll)
+- [Local Storage and Event Delegation](https://m2tdev.github.io/local-storage-and-event-delegation)
