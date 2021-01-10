@@ -31,3 +31,4 @@ Click on any project to see the demo!
 - [Slide In On Scroll](https://m2tdev.github.io/slide-in-on-scroll)
 - [Local Storage and Event Delegation](https://m2tdev.github.io/local-storage-and-event-delegation)
 - [Mouse Move Shadow](https://m2tdev.github.io/mouse-move-shadow)
+- [Sort Without Articles](https://m2tdev.github.io/sort-without-articles)
