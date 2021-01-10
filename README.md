@@ -32,3 +32,4 @@ Click on any project to see the demo!
 - [Local Storage and Event Delegation](https://m2tdev.github.io/local-storage-and-event-delegation)
 - [Mouse Move Shadow](https://m2tdev.github.io/mouse-move-shadow)
 - [Sort Without Articles](https://m2tdev.github.io/sort-without-articles)
+- [Speech Detection](https://m2tdev.github.io/speech-detection)
