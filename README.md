@@ -33,3 +33,4 @@ Click on any project to see the demo!
 - [Mouse Move Shadow](https://m2tdev.github.io/mouse-move-shadow)
 - [Sort Without Articles](https://m2tdev.github.io/sort-without-articles)
 - [Speech Detection](https://m2tdev.github.io/speech-detection)
+- [Follow Along Links](https://m2tdev.github.io/follow-along-links)
