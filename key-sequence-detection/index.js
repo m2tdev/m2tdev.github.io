@@ -17,7 +17,7 @@
 // Wes' solution
 
 const pressed = [];
-const secretCode = 'wesbos';
+const secretCode = 'summon';
 
 window.addEventListener('keyup', (e) => {
   pressed.push(e.key);
